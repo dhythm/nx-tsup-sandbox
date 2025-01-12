@@ -16,6 +16,12 @@ npx create-nx-workspace@17.2.8 --pm yarn
 ✔ Enable distributed caching to make your CI faster · Yes
 ```
 
+## Create a library
+
+```sh
+yarn nx generate @nx/react:library foo
+```
+
 ## Start the app
 
 To start the development server run `nx serve something`. Open your browser and navigate to http://localhost:4200/. Happy coding!
