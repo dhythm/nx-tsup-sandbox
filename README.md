@@ -29,6 +29,13 @@ yarn nx generate @nx/react:library foo
 ✔ What should be the project name and where should it be generated? · foo @ libs/foo
 ```
 
+```sh
+yarn nx generate @nx/react:library bar
+
+✔ Which bundler would you like to use to build the library? Choose 'none' to skip build setup. · vite
+✔ What should be the project name and where should it be generated? · bar @ libs/bar
+```
+
 ## Start the app
 
 To start the development server run `nx serve something`. Open your browser and navigate to http://localhost:4200/. Happy coding!
