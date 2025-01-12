@@ -36,10 +36,18 @@ yarn nx generate @nx/react:library bar
 ✔ What should be the project name and where should it be generated? · bar @ libs/bar
 ```
 
-## Install tsup
+## Set tsup up
+
+### Install the library
 
 ```sh
 yarn add tsup --dev
+```
+
+### Run
+
+```sh
+yarn nx run foo:tsup
 ```
 
 ## Start the app

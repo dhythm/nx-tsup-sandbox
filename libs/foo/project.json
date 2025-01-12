@@ -31,6 +31,12 @@
       "options": {
         "reportsDirectory": "../../coverage/libs/foo"
       }
+    },
+    "tsup": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "yarn tsup ."
+      }
     }
   }
 }
