@@ -36,6 +36,12 @@ yarn nx generate @nx/react:library bar
 ✔ What should be the project name and where should it be generated? · bar @ libs/bar
 ```
 
+## Install tsup
+
+```sh
+yarn add tsup --dev
+```
+
 ## Start the app
 
 To start the development server run `nx serve something`. Open your browser and navigate to http://localhost:4200/. Happy coding!
