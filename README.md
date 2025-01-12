@@ -18,8 +18,15 @@ npx create-nx-workspace@17.2.8 --pm yarn
 
 ## Create a library
 
+Add `workspaceLayout` before run generator.
+After then,
+
 ```sh
 yarn nx generate @nx/react:library foo
+
+✔ What unit test runner should be used? · vitest
+✔ Which bundler would you like to use to build the library? Choose 'none' to skip build setup. · vite
+✔ What should be the project name and where should it be generated? · foo @ libs/foo
 ```
 
 ## Start the app
