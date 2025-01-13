@@ -30,7 +30,8 @@ var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: tru
 // libs/foo/src/_index.ts
 var index_exports = {};
 __export(index_exports, {
-  Foo: () => Foo
+  Foo: () => Foo,
+  helloFoo: () => helloFoo
 });
 module.exports = __toCommonJS(index_exports);
 
@@ -43,7 +44,13 @@ var StyledFoo = import_styled_components.default.div`
 function Foo(props) {
   return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(StyledFoo, { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("h1", { children: "Welcome to Foo!" }) });
 }
+
+// libs/foo/src/lib/utils.ts
+var helloFoo = () => {
+  console.log("Hello Foo!");
+};
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
-  Foo
+  Foo,
+  helloFoo
 });

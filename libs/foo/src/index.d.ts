@@ -4,4 +4,6 @@ interface FooProps {
 }
 declare function Foo(props: FooProps): react_jsx_runtime.JSX.Element;
 
-export { Foo, type FooProps };
+declare const helloFoo: () => void;
+
+export { Foo, type FooProps, helloFoo };
