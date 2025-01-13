@@ -35,7 +35,7 @@
     "tsup": {
       "executor": "nx:run-commands",
       "options": {
-        "command": "yarn tsup {projectRoot}/src/index.ts"
+        "command": "yarn tsup {projectRoot}/src/index.ts --dts"
       }
     }
   }
