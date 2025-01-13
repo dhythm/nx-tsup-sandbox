@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
-import NxWelcome from './nx-welcome';
+import { Foo } from '@nx-tsup-sandbox/foo';
+import { Bar } from '@nx-tsup-sandbox/bar';
 
 const StyledApp = styled.div`
   // Your style here
@@ -9,7 +10,8 @@ const StyledApp = styled.div`
 export function App() {
   return (
     <StyledApp>
-      <NxWelcome title="something" />
+      <Foo />
+      <Bar />
     </StyledApp>
   );
 }

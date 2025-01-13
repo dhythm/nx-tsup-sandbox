@@ -16,7 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@nx-tsup-sandbox/bar": ["libs/bar/src/index.ts"],
-      "@nx-tsup-sandbox/foo": ["libs/foo/src/index"]
+      "@nx-tsup-sandbox/foo": ["libs/foo/src"]
     }
   },
   "exclude": ["node_modules", "tmp"]

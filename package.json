@@ -4,7 +4,9 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "test": "nx affected:test --skip-nx-cache"
+    "serve": "nx serve something",
+    "test": "nx test",
+    "test:affected": "nx affected:test --skip-nx-cache"
   },
   "devDependencies": {
     "@babel/core": "^7.14.5",
