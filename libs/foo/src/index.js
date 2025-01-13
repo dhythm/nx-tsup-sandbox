@@ -47,7 +47,7 @@ function Foo(props) {
 
 // libs/foo/src/lib/utils.ts
 var helloFoo = () => {
-  console.log("Hello Foo!");
+  return "Hello Foo!";
 };
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
