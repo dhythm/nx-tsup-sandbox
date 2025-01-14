@@ -35,7 +35,7 @@
     "tsup": {
       "executor": "nx:run-commands",
       "options": {
-        "command": "yarn tsup --entry.index {projectRoot}/src/_index.ts --dts --out-dir {projectRoot}/src"
+        "command": "yarn tsup --entry.index {projectRoot}/src/_index.ts --format esm --dts --out-dir {projectRoot}/src"
       }
     }
   }
