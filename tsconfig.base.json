@@ -16,7 +16,10 @@
     "baseUrl": ".",
     "paths": {
       "@nx-tsup-sandbox/bar": ["libs/bar/src/index.ts"],
-      "@nx-tsup-sandbox/foo": ["libs/foo/src/index.mjs"]
+      "@nx-tsup-sandbox/foo": [
+        "libs/foo/src/index.d.mts",
+        "libs/foo/src/index.mjs"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]
